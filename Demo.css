@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+#MyForm
+{
+    width: 60vw;
+    margin: 100px auto;
+    border: 2px solid lightcyan;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+#PasswordIcon
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-image: url("./visible.png");
+}
+
+#PasswordIcon.VissableEyeBg
+{
+    background-image: url("./hidden.png");
+  
+}
+
